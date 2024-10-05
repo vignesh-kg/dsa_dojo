@@ -7,7 +7,7 @@ import java.util.Map;
 public class GroupAnagrams{
   public static void main(String[] args){
     Solution s = new Solution();
-    for(List list : s.groupAnagrams(Arrays.asList("eat", "tea", "tan", "ant"))) 
+    for(List<String> list : s.groupAnagrams(Arrays.asList("eat", "tea", "tan", "ant"))) 
       System.out.println(list);
   }
 }
