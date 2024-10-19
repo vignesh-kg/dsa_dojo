@@ -8,6 +8,11 @@ public class UniquePaths{
 
 class Solution{
   public int uniquePaths(int m, int n){
+    if(m > n){
+      int temp = m;
+      m = n;
+      n = temp;
+    }
     n = m + n -2;
     int r = m-1;
     long result = 1;
